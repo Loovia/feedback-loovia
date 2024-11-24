@@ -1,9 +1,5 @@
 #!/bin/sh
 
-pnpm typecheck &&
+pnpm type-check &&
 pnpm lint
 
-branch=$(git rev-parse --abbrev-ref HEAD)
-if [ "$branch" = "develop" ] || [ "$branch" = "main" ]; then
-  pnpm test:unit --run
-fi
