@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import ListView from "@/views/ListView.vue";
+import ListView from '@/views/ListView.vue'
 </script>
 
 <template>

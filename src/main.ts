@@ -1,7 +1,7 @@
 import './assets/main.css'
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
-import {createI18n} from "vue-i18n";
+import {createI18n} from 'vue-i18n'
 //import fr from '@/locales/fr.json'
 import App from './App.vue'
 import router from './router'
